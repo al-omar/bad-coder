@@ -1,0 +1,12 @@
+1. go to base directory, ConferenceTrackManager/
+2. File "input.txt" can be used to provide input to the program. Default file has test values sent by Thoughtworks in mail.
+3. Make sure java(version 8 preferablly) is installed and run below command from base directory. Development was done in linux, and this guide has been written as per linux standards:
+
+java -Dfile.encoding=UTF-8 -classpath ./bin com.main.CTM
+
+4. Use this command if you want to redirect output to a file called as output.txt
+
+java -Dfile.encoding=UTF-8 -classpath ./bin com.main.CTM > output.txt
+
+4. The source code is present in src folder for code review.
+5. The project can also be imported into eclipse as Java project and run from UI.
